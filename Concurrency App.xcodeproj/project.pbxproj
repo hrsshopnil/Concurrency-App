@@ -10,9 +10,33 @@
 		B3E9F91D2CCEB7ED0002D7E1 /* Concurrency App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concurrency App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B3A723752CD0013B00D8E3EB /* Exceptions for "Concurrency App" folder in "Concurrency App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Bundle+Extension.swift",
+			);
+			target = B3E9F91C2CCEB7ED0002D7E1 /* Concurrency App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		B3A723762CD0013B00D8E3EB /* Exceptions for "Concurrency App" folder in "Copy Bundle Resources" phase from "Concurrency App" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = B3E9F91B2CCEB7ED0002D7E1 /* Resources */;
+			membershipExceptions = (
+				"Extensions/Bundle+Extension.swift",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B3E9F91F2CCEB7ED0002D7E1 /* Concurrency App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B3A723752CD0013B00D8E3EB /* Exceptions for "Concurrency App" folder in "Concurrency App" target */,
+				B3A723762CD0013B00D8E3EB /* Exceptions for "Concurrency App" folder in "Copy Bundle Resources" phase from "Concurrency App" target */,
+			);
 			path = "Concurrency App";
 			sourceTree = "<group>";
 		};

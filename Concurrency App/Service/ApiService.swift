@@ -33,7 +33,7 @@ struct ApiService  {
                 completion(.failure(.corruptData))
                 return
             }
-            
+
             do {
                 let users = try JSONDecoder().decode(T.self, from: data)
                 completion(.success(users))
@@ -43,6 +43,7 @@ struct ApiService  {
         }.resume()
     }
 }
+
 
 enum ApiError: Error {
     case invalidURL, invalidResponse, corruptData, decodingError
