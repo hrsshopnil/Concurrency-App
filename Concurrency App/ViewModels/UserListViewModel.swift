@@ -9,6 +9,8 @@ import Foundation
 class UserListViewModel: ObservableObject {
     @Published var users: [User] = []
     @Published var isloading = false
+    @Published var showError = false
+    @Published var errorMessage: String?
     
     init() {
         fetchUsers()
@@ -31,7 +33,11 @@ class UserListViewModel: ObservableObject {
                         self.users = users
                     }
                 case .failure(let error):
-                    print(error)
+                    DispatchQueue.main.async {
+                        self.showError = true
+                        self.errorMessage = error.localizedDescription
+                    }
+
                 }
             }
         }

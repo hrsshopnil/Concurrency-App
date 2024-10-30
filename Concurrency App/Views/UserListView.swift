@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct UserListView: View {
-    
-
-    
     @StateObject private var vm = UserListViewModel()
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
+            
             List(vm.users) { user in
                 NavigationLink {
                     UserPostView()
@@ -26,17 +24,26 @@ struct UserListView: View {
                     }
                 }
             }
-            
-            .overlay {
-                if vm.isloading {
-                    ProgressView()
-                }
+        }
+        .alert("Application Error", isPresented: $vm.showError, actions: {
+            Button("Ok") {}
+        }, message: {
+            if let errorMessage = vm.errorMessage {
+                Text(errorMessage)
             }
-            .onAppear {
-                vm.fetchUsers()
+        })
+        .onAppear {
+            vm.fetchUsers()
+        }
+        
+        .overlay {
+            if vm.isloading {
+                ProgressView()
             }
         }
     }
+    
+    
 }
 
 #Preview {
