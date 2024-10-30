@@ -9,20 +9,32 @@ import SwiftUI
 
 struct UserListView: View {
     
-#warning("Remove the forPreview augument or set it false before shipping")
+
     
-    @StateObject private var vm = UserListViewModels()
+    @StateObject private var vm = UserListViewModel()
+    
     var body: some View {
         NavigationView {
             List(vm.users) { user in
-                VStack {
-                    Text(user.name)
-                    Text(user.email)
+                NavigationLink {
+                    UserPostView()
+                }
+                label: {
+                    VStack(alignment: .leading) {
+                        Text(user.name)
+                        Text(user.email)
+                    }
                 }
             }
-        }
-        .onAppear {
-            vm.fetchUsers()
+            
+            .overlay {
+                if vm.isloading {
+                    ProgressView()
+                }
+            }
+            .onAppear {
+                vm.fetchUsers()
+            }
         }
     }
 }
