@@ -10,5 +10,4 @@ struct User: Codable, Identifiable {
     let name: String
     let email: String
     let username: String
-    let any: Bool
 }

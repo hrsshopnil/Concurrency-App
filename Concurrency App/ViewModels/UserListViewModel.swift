@@ -6,6 +6,7 @@
 //
 import Foundation
 
+
 class UserListViewModel: ObservableObject {
     @Published var users: [User] = []
     @Published var isloading = false
@@ -13,34 +14,47 @@ class UserListViewModel: ObservableObject {
     @Published var errorMessage: String?
     
     init() {
-        fetchUsers()
+        Task {
+            await fetchUsers()
+        }
     }
     
-    func fetchUsers() {
+    @MainActor
+    func fetchUsers() async {
         let apiService = ApiService(urlString: "https://jsonplaceholder.typicode.com/users")
         isloading.toggle()
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            apiService.getJson { (result: Result<[User], ApiError>) in
-                defer {
-                    DispatchQueue.main.async {
-                        self.isloading.toggle()
-                    }
-                }
-                switch result {
-                case .success(let users):
-                    DispatchQueue.main.async {
-                        self.users = users
-                    }
-                case .failure(let error):
-                    DispatchQueue.main.async {
-                        self.showError = true
-                        self.errorMessage = error.localizedDescription
-                    }
-
-                }
-            }
+        defer {
+            isloading.toggle()
         }
+        
+        do {
+            users = try await apiService.getJson()
+        } catch {
+            showError = true
+            errorMessage = error.localizedDescription
+        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+//            apiService.getJson { (result: Result<[User], ApiError>) in
+//                defer {
+//                    DispatchQueue.main.async {
+//                        self.isloading.toggle()
+//                    }
+//                }
+//                switch result {
+//                case .success(let users):
+//                    DispatchQueue.main.async {
+//                        self.users = users
+//                    }
+//                case .failure(let error):
+//                    DispatchQueue.main.async {
+//                        self.showError = true
+//                        self.errorMessage = error.localizedDescription
+//                    }
+//
+//                }
+//            }
+//        }
         
     }
 }

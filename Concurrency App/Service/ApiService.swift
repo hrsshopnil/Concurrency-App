@@ -9,6 +9,25 @@ import Foundation
 struct ApiService  {
     let urlString: String
     
+    func getJson<T: Decodable>() async throws -> T {
+        guard let url = URL(string: urlString) else { throw ApiError.invalidURL }
+        
+        do {
+           let (data, response) = try await URLSession.shared.data(from: url)
+            
+            guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
+                throw ApiError.invalidResponse
+            }
+            do {
+                let users = try JSONDecoder().decode(T.self, from: data)
+                return users
+            } catch {
+                throw ApiError.decodingError("Error Decoding")
+            }
+        }
+    }
+    
+    
     func getJson<T: Decodable>(dateDecodingStrategy: JSONDecoder.DateDecodingStrategy = .deferredToDate,
                                keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy = .useDefaultKeys,
                                completion: @escaping (Result<T, ApiError>) -> Void) {
