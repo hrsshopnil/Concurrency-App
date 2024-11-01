@@ -1,0 +1,16 @@
+{
+  "source": "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/Views/UserPostView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Post ID: %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 18
+        }
+      }
+    ]
+  },
+  "version": 1
+}

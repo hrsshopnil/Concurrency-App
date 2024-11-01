@@ -7,9 +7,10 @@
 
 import SwiftUI
 
+
 struct UserListView: View {
     @StateObject private var vm = UserListViewModel()
-    
+
     var body: some View {
         NavigationStack {
             
@@ -18,7 +19,7 @@ struct UserListView: View {
                     UserPostView()
                 }
                 label: {
-                    VStack(alignment: .leading) {
+                    VStack(alignment: .center) {
                         Text(user.name)
                         Text(user.email)
                     }
@@ -41,6 +42,7 @@ struct UserListView: View {
                 ProgressView()
             }
         }
+
     }
     
     

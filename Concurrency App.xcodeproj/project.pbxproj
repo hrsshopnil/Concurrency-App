@@ -53,10 +53,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B333B06E2CD48A5F001780AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3E9F9142CCEB7ED0002D7E1 = {
 			isa = PBXGroup;
 			children = (
 				B3E9F91F2CCEB7ED0002D7E1 /* Concurrency App */,
+				B333B06E2CD48A5F001780AE /* Frameworks */,
 				B3E9F91E2CCEB7ED0002D7E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,6 +126,8 @@
 			);
 			mainGroup = B3E9F9142CCEB7ED0002D7E1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B3E9F91E2CCEB7ED0002D7E1 /* Products */;
 			projectDirPath = "";
@@ -206,6 +216,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";

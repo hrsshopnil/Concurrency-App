@@ -1,0 +1,108 @@
+{
+  "" : {
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency App-master.dia",
+    "emit-module-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency App-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency App-master-emit-module.dia",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency App-master.swiftdeps"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/Concurrency_AppApp.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency_AppApp.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency_AppApp.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency_AppApp.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency_AppApp.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency_AppApp.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency_AppApp.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency_AppApp.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Concurrency_AppApp~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/Models/Post.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Post.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Post.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Post.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Post.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Post.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Post.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Post.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/Post~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/Models/User.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/User.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/User.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/User.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/User.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/User.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/User.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/User.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/User~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/Preview Content/MockData.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/MockData.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/MockData.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/MockData.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/MockData.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/MockData.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/MockData.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/MockData.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/MockData~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/Service/ApiService.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/ApiService.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/ApiService.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/ApiService.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/ApiService.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/ApiService.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/ApiService.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/ApiService.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/ApiService~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/ViewModels/UserListViewModel.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListViewModel.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListViewModel.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListViewModel.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListViewModel.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListViewModel.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListViewModel.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListViewModel.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListViewModel~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/ViewModels/UserPostViewModel.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostViewModel.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostViewModel.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostViewModel.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostViewModel.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostViewModel.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostViewModel.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostViewModel.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostViewModel~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/Views/UserListView.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListView.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListView.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListView.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListView.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListView.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListView.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListView.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserListView~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/Concurrency App/Views/UserPostView.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostView.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostView.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostView.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostView.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostView.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostView.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostView.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/UserPostView~partial.swiftmodule"
+  },
+  "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/shopnilhasan/Documents/Concurrency App/build/Concurrency App.build/Debug-iphonesimulator/Concurrency App.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
